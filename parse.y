@@ -1,6 +1,7 @@
 %{
 #include <stdio.h>
-#define YYSTYPE char *
+
+extern int yylex();
 
 void
 yyerror(const char *str) {
